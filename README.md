@@ -4,7 +4,7 @@ OrdinAI is an advanced AI-driven regulatory intelligence platform designed to in
 
 ---
 
-## 🚀 Features
+##  Features
 
 - 📄 Automated document ingestion (PDF + HTML)
 - 🧠 Parent-child semantic chunking
