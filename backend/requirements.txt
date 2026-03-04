@@ -1,0 +1,34 @@
+# === OrdinAI Backend Dependencies ===
+# Install with: pip install -r requirements.txt
+
+# FastAPI & Server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# Environment & Config
+python-dotenv>=1.0.0
+
+# Vector Database (Qdrant Cloud)
+qdrant-client>=1.7.3
+
+# Embeddings
+sentence-transformers>=2.3.1
+faiss-cpu
+
+# LLM API (Anthropic Claude)
+anthropic>=0.18.1
+
+# Data Models
+pydantic>=2.5.0
+
+# === Document Processing (for add_new_doc.py) ===
+requests>=2.31.0
+urllib3>=2.2.0
+langchain-text-splitters>=0.0.1
+beautifulsoup4>=4.12.0
+unstructured
+
+# === Optional but recommended ===
+pytest>=8.0.0
+httpx>=0.26.0
+
